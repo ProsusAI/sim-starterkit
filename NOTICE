@@ -1,0 +1,24 @@
+sim-starterkit (RestBench Starter Kit)
+Copyright 2026 MIH AI B.V.
+
+This product is licensed under the Apache License, Version 2.0 (see LICENSE).
+
+------------------------------------------------------------------------
+Third-party components
+------------------------------------------------------------------------
+
+The starter kit has the following direct runtime dependencies. They are
+installed from PyPI and are NOT bundled or redistributed by this project:
+
+  - httpx .................. BSD-3-Clause ........ https://github.com/encode/httpx
+  - litellm ................ MIT License ......... https://github.com/BerriAI/litellm
+
+The restaurant scenarios and data referenced by this kit are fictional and
+were created for this benchmark.
+
+------------------------------------------------------------------------
+Authorship
+------------------------------------------------------------------------
+
+Portions of this project were co-authored by Claude Code under human
+direction and review.

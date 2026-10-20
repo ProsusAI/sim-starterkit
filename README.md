@@ -11,18 +11,18 @@ Your restaurant starts in the red. You have 30 simulated days to turn it around.
 ### 1. Clone and install
 
 ```bash
-git clone <this-repo>
-cd restbench-starter-kit
+git clone https://github.com/ProsusAI/sim-starterkit.git
+cd sim-starterkit
 pip install -r requirements.txt
 ```
 
 ### 2. Set the server URL
 
 ```bash
-export RESTBENCH_URL=http://52.48.183.209:8001
+export RESTBENCH_URL=http://<restbench-server-host>:8001
 ```
 
-> **Explore the API interactively:** http://52.48.183.209:8001/docs (Swagger UI)
+> **Explore the API interactively:** `$RESTBENCH_URL/docs` (Swagger UI)
 
 ### 3. Run a baseline to see how the game works
 
@@ -327,3 +327,11 @@ Per team: max **10 concurrent games** and **60 games per hour**. Exceeding eithe
 ---
 
 Good luck. Go feed some customers.
+
+## Contributing
+
+We welcome contributions! Please see [CONTRIBUTING.md](CONTRIBUTING.md).
+
+## License
+
+Licensed under the Apache License, Version 2.0. See [LICENSE](LICENSE) and [NOTICE](NOTICE) for details.
